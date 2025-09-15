@@ -1,6 +1,12 @@
 # Welcome to the NHANES Data Explorer!
 <br>
 
+## Live Demo
+
+Try the app here: https://ahal.shinyapps.io/nhanes-shiny-dashboard/
+
+<br>
+
 ## Why did I build this app?
 This Shiny app was built to provide users a way of exploring health patterns and demographic relationships within the US population using data from the [National Health and Nutrition Examination Survey (NHANES)](https://www.cdc.gov/nchs/nhanes/index.htm). But primarily, it was built as a learning project to demonstrate interactive health data visualization techniques. NHANES is a major program of studies designed to assess the health and nutritional status of adults and children in the United States, conducted by the National Center for Health Statistics (NCHS), part of the Centers for Disease Control and Prevention (CDC).
 
