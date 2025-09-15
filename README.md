@@ -1,8 +1,8 @@
 # Welcome to the NHANES Data Explorer!
 <br>
 
-## Why did we build this app?
-This Shiny app was built to provide users a way of exploring health patterns and demographic relationships within the US population using data from the [National Health and Nutrition Examination Survey (NHANES)](https://www.cdc.gov/nchs/nhanes/index.htm)...but primarily, it was built as a learning project to demonstrate interactive health data visualization techniques. NHANES is a major program of studies designed to assess the health and nutritional status of adults and children in the United States, conducted by the National Center for Health Statistics (NCHS), part of the Centers for Disease Control and Prevention (CDC).
+## Why did I build this app?
+This Shiny app was built to provide users a way of exploring health patterns and demographic relationships within the US population using data from the [National Health and Nutrition Examination Survey (NHANES)](https://www.cdc.gov/nchs/nhanes/index.htm). But primarily, it was built as a learning project to demonstrate interactive health data visualization techniques. NHANES is a major program of studies designed to assess the health and nutritional status of adults and children in the United States, conducted by the National Center for Health Statistics (NCHS), part of the Centers for Disease Control and Prevention (CDC).
 
 <br>
 
@@ -45,7 +45,7 @@ shiny::runApp()
 <br>
 
 ## Data Source
-This app uses the [NHANES R package](https://cran.r-project.org/web/packages/NHANES/refman/NHANES.html), which contains a subset of cleaned survey data from the 2009-2010 and 2011-2012 NHANES cycles. The dataset includes 75 variables for 10,000 participants, specifically prepared for educational and research purposes.
+This app uses the [NHANES R package](https://cran.r-project.org/web/packages/NHANES/refman/NHANES.html), which contains a subset of cleaned survey data from the 2009-2010 and 2011-2012 NHANES sample years. The dataset includes 75 variables for 10,000 participants, specifically prepared for educational and research purposes.
 
 <br>
 
