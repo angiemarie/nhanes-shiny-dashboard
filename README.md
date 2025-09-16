@@ -12,8 +12,8 @@ This Shiny app was built to provide users a way of exploring health patterns and
 
 <br>
 
-## Where's the data?
-Check out the different tabs to find interactive data visualizations looking at health variables including BMI, blood pressure, cholesterol levels, and demographic factors from the 2009-2012 NHANES survey cycles. The **Summary** tab provides descriptive statistics, **Visualization** shows interactive plots, and **Data Table** allows you to explore the raw filtered data.
+## Explore the data
+Check out the different tabs to find interactive data visualizations looking at health variables including BMI, blood pressure, cholesterol levels, and demographic factors from the 2009-2012 NHANES survey years. The **Summary** tab provides descriptive statistics, **Visualization** shows interactive plots, and **Data Table** allows you to explore the raw filtered data.
 
 <br>
 
@@ -28,24 +28,37 @@ Check out the different tabs to find interactive data visualizations looking at 
 
 <br>
 
-## Installation & Usage
+## Installation
+What you need: R and RStudio installed on your computer.
+<br>
+Need R and RStudio? Download them free at: https://posit.co/download/rstudio-desktop
 
-### Option 1: Run directly from GitHub
+### Option 1: Quick Start
 ```r
-# Install dependencies first
+Step 1: Open RStudio and copy/paste this code into the console and run it:
 install.packages(c("shiny", "NHANES", "dplyr", "ggplot2", "DT", "plotly"))
+# This installs the necessary software packages
 
-# Run the app
+Step 2: Copy/paste this second line and run it:
 shiny::runGitHub("nhanes-shiny-dashboard", "angiemarie")
+# This downloads and launches the app directly from GitHub (it will pop up in a new window)
 ```
 
-### Option 2: Clone and run locally
-```bash
-git clone https://github.com/angiemarie/nhanes-shiny-dashboard.git
-cd nhanes-shiny-dashboard
-```
+### Option 2: Manual Download
 ```r
+Step 1: Go to this repository on GitHub
+
+Step 2: Click on the green "Code" button and select "Download ZIP"
+
+Step 3: Extract the files to a folder on your computer
+
+Step 4: Open the app.R file in RStudio and copy/paste this code into the console and run it:
+install.packages(c("shiny", "NHANES", "dplyr", "ggplot2", "DT", "plotly"))
+# This installs the necessary software packages
+
+Step 5: Copy/paste this second line and run it:
 shiny::runApp()
+#This launches the app from your local files (it will pop up in a new window)
 ```
 
 <br>
