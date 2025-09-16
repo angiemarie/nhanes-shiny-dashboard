@@ -46,7 +46,7 @@ shiny::runGitHub("nhanes-shiny-dashboard", "angiemarie")
 
 ### Option 2: Manual Download
 ```r
-Step 1: Go to this repository on GitHub
+Step 1: Go to this repository (https://github.com/angiemarie/nhanes-shiny-dashboard) on GitHub
 
 Step 2: Click on the green "Code" button and select "Download ZIP"
 
